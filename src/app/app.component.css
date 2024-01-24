@@ -1,0 +1,23 @@
+/* Style for the main container or body */
+/* Center the content container */
+.content {
+  text-align: center;
+  position: relative;
+}
+
+/* Style for the banner image */
+.banner {
+  max-width: 100%;
+  height: auto;
+  display: block; /* This removes bottom margin/whitespace inherent to inline elements */
+}
+
+/* Style and position the countdown */
+.countdown {
+  color: white;
+  font-size: 40px; /* Significantly increased font size */
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px; /* Add space between the banner and the countdown */
+}

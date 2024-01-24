@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
